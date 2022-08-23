@@ -49,14 +49,14 @@ Apaga a colletion.
 
 ## Databases com apenas uma collection
 
-### mongoexport dir
+### mongoexport -c *cl* -d *db* -o *dir*
 
-### mongoimport dir -d db -c cl
+### mongoimport *dir* -d *db* -c *cl*
 
 ## Databases com multiplas collections
 
-### mongodump -d db -o dir
+### mongodump -d *db* -o *dir*
 Usado para exportação
 
-### mongorestore dir
+### mongorestore *dir*
 Usado para importação
